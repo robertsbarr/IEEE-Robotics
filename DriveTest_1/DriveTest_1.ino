@@ -25,8 +25,6 @@ void loop() {
     // waiting 2 seconds before turning off
     delay(2000);
 
-    //test for git hub
-
     // turning pins off
     analogWrite(drive_pin_right, HALT);
     analogWrite(drive_pin_left, HALT);
